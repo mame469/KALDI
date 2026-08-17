@@ -1,0 +1,963 @@
+/* =========================================================
+   KALDI COFFEE HOUSE
+   REVIEWS PAGE CSS
+========================================================= */
+
+
+/* =========================================================
+   REVIEWS HERO
+========================================================= */
+
+.reviews-hero {
+
+    min-height: 65vh;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background:
+        url("images/about/ethiopian-coffee.jpg")
+        center / cover no-repeat;
+
+    overflow: hidden;
+
+}
+
+
+.reviews-hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(28,17,11,0.68),
+            rgba(28,17,11,0.88)
+        );
+
+}
+
+
+.reviews-hero .container {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+}
+
+
+.reviews-hero-content {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    padding:
+        120px 20px 70px;
+
+    text-align: center;
+
+    color: #fff;
+
+}
+
+
+.reviews-hero-content h1 {
+
+    margin:
+        18px 0;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(3rem, 7vw, 6rem);
+
+    line-height: 1.05;
+
+}
+
+
+.reviews-hero-content h1 span {
+
+    display: block;
+
+    color: #d6a354;
+
+    font-family:
+        "Dancing Script",
+        cursive;
+
+}
+
+
+.reviews-hero-content p {
+
+    max-width: 680px;
+
+    margin: auto;
+
+    color:
+        rgba(255,255,255,0.85);
+
+    line-height: 1.9;
+
+}
+
+
+/* =========================================================
+   RATING OVERVIEW
+========================================================= */
+
+.rating-overview {
+
+    background: #fcf9f2;
+
+}
+
+
+.rating-overview-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        0.8fr 1.2fr;
+
+    gap: 90px;
+
+    align-items: center;
+
+}
+
+
+/* =========================================================
+   OVERALL RATING
+========================================================= */
+
+.overall-rating {
+
+    text-align: center;
+
+    padding:
+        30px;
+
+    border-right:
+        1px solid #ddd2c3;
+
+}
+
+
+.rating-label {
+
+    display: block;
+
+    margin-bottom: 15px;
+
+    color: #8a7665;
+
+    font-size: 0.7rem;
+
+    font-weight: 600;
+
+    letter-spacing: 2px;
+
+}
+
+
+.rating-number {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(4rem, 7vw, 6rem);
+
+    line-height: 1;
+
+    color: #3b2419;
+
+}
+
+
+.rating-stars {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    margin:
+        18px 0 12px;
+
+    color: #d6a354;
+
+    font-size: 1.1rem;
+
+}
+
+
+.overall-rating p {
+
+    margin: 0;
+
+    color: #8a7665;
+
+    font-size: 0.78rem;
+
+}
+
+
+/* =========================================================
+   RATING BREAKDOWN
+========================================================= */
+
+.rating-breakdown {
+
+    width: 100%;
+
+    max-width: 650px;
+
+}
+
+
+.rating-row {
+
+    display: grid;
+
+    grid-template-columns:
+        20px 20px 1fr 45px;
+
+    align-items: center;
+
+    gap: 10px;
+
+    margin-bottom: 17px;
+
+}
+
+
+.rating-row > span {
+
+    color: #4a2d20;
+
+    font-size: 0.8rem;
+
+    font-weight: 600;
+
+    text-align: right;
+
+}
+
+
+.rating-row > i {
+
+    color: #d6a354;
+
+    font-size: 0.72rem;
+
+}
+
+
+.rating-bar {
+
+    height: 8px;
+
+    overflow: hidden;
+
+    border-radius: 20px;
+
+    background: #e6ddd2;
+
+}
+
+
+.rating-bar span {
+
+    display: block;
+
+    height: 100%;
+
+    border-radius: inherit;
+
+    background: #4a2d20;
+
+}
+
+
+.rating-row strong {
+
+    color: #777;
+
+    font-size: 0.72rem;
+
+    font-weight: 500;
+
+}
+
+
+/* =========================================================
+   CUSTOMER REVIEWS
+========================================================= */
+
+.customer-reviews {
+
+    background: #fff;
+
+}
+
+
+.reviews-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 25px;
+
+    margin-top: 50px;
+
+}
+
+
+/* =========================================================
+   REVIEW CARD
+========================================================= */
+
+.review-card {
+
+    position: relative;
+
+    padding:
+        30px;
+
+    border:
+        1px solid #eee5d9;
+
+    border-radius: 12px;
+
+    background: #fcf9f2;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+
+}
+
+
+.review-card:hover {
+
+    transform:
+        translateY(-7px);
+
+    box-shadow:
+        0 20px 45px rgba(59,36,25,0.10);
+
+}
+
+
+.review-top {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+}
+
+
+.review-user {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+}
+
+
+.review-avatar {
+
+    width: 48px;
+
+    height: 48px;
+
+    flex-shrink: 0;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #4a2d20;
+
+    color: #d6a354;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 1.2rem;
+
+    font-weight: 600;
+
+}
+
+
+.review-user h3 {
+
+    margin:
+        0 0 3px;
+
+    color: #3b2419;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 1.05rem;
+
+}
+
+
+.review-user span {
+
+    color: #999;
+
+    font-size: 0.65rem;
+
+}
+
+
+.review-stars {
+
+    display: flex;
+
+    gap: 2px;
+
+    color: #d6a354;
+
+    font-size: 0.65rem;
+
+}
+
+
+.review-quote {
+
+    margin-top: 25px;
+
+    color: #c7ad8c;
+
+    font-size: 1.5rem;
+
+}
+
+
+.review-text {
+
+    margin:
+        12px 0 22px;
+
+    color: #68615b;
+
+    font-size: 0.85rem;
+
+    line-height: 1.85;
+
+}
+
+
+.review-date {
+
+    color: #aaa;
+
+    font-size: 0.65rem;
+
+    letter-spacing: 0.5px;
+
+}
+
+
+/* =========================================================
+   FEATURED REVIEW
+========================================================= */
+
+.featured-review {
+
+    background: #f6f1e8;
+
+}
+
+
+.featured-review-box {
+
+    max-width: 950px;
+
+    margin: auto;
+
+    padding:
+        80px 50px;
+
+    text-align: center;
+
+    border:
+        1px solid #e4d8c8;
+
+    background: #fff;
+
+    position: relative;
+
+}
+
+
+.featured-review-icon {
+
+    width: 65px;
+
+    height: 65px;
+
+    margin:
+        0 auto 25px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: #4a2d20;
+
+    color: #d6a354;
+
+    font-size: 1.25rem;
+
+}
+
+
+.featured-review-box blockquote {
+
+    max-width: 800px;
+
+    margin:
+        25px auto;
+
+    color: #3b2419;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(1.6rem, 3vw, 2.5rem);
+
+    line-height: 1.45;
+
+}
+
+
+.featured-review-stars {
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 5px;
+
+    margin:
+        25px 0 20px;
+
+    color: #d6a354;
+
+}
+
+
+.featured-review-author {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 3px;
+
+}
+
+
+.featured-review-author strong {
+
+    color: #4a2d20;
+
+    font-size: 0.85rem;
+
+}
+
+
+.featured-review-author span {
+
+    color: #999;
+
+    font-size: 0.68rem;
+
+}
+
+
+/* =========================================================
+   REVIEW CTA
+========================================================= */
+
+.review-cta {
+
+    min-height: 560px;
+
+    position: relative;
+
+    display: flex;
+
+    align-items: center;
+
+    background:
+        url("images/hero/coffee-culture.jpg")
+        center / cover no-repeat;
+
+}
+
+
+.review-cta-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(30,18,12,0.92),
+            rgba(30,18,12,0.62),
+            rgba(30,18,12,0.75)
+        );
+
+}
+
+
+.review-cta .container {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+.review-cta-content {
+
+    max-width: 720px;
+
+    padding:
+        100px 0;
+
+    color: #fff;
+
+}
+
+
+.review-cta-content h2 {
+
+    margin:
+        18px 0 25px;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(2.7rem, 5vw, 4.7rem);
+
+    line-height: 1.1;
+
+}
+
+
+.review-cta-content h2 span {
+
+    display: block;
+
+    color: #d6a354;
+
+    font-family:
+        "Dancing Script",
+        cursive;
+
+}
+
+
+.review-cta-content p {
+
+    max-width: 620px;
+
+    margin:
+        0 0 30px;
+
+    color:
+        rgba(255,255,255,0.85);
+
+    line-height: 1.9;
+
+}
+
+
+.review-cta-buttons {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — TABLET
+========================================================= */
+
+@media (max-width: 992px) {
+
+
+    .rating-overview-grid {
+
+        grid-template-columns:
+            1fr;
+
+        gap: 45px;
+
+    }
+
+
+    .overall-rating {
+
+        border-right: none;
+
+        border-bottom:
+            1px solid #ddd2c3;
+
+        padding-bottom: 45px;
+
+    }
+
+
+    .rating-breakdown {
+
+        max-width: 700px;
+
+        margin: auto;
+
+    }
+
+
+    .reviews-grid {
+
+        grid-template-columns:
+            repeat(2, 1fr);
+
+    }
+
+
+    .review-card:last-child {
+
+        grid-column:
+            1 / -1;
+
+        max-width: 500px;
+
+        width: 100%;
+
+        margin: auto;
+
+    }
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+
+    .reviews-hero {
+
+        min-height:
+            55vh;
+
+    }
+
+
+    .reviews-hero-content {
+
+        padding:
+            110px 20px 60px;
+
+    }
+
+
+    .reviews-grid {
+
+        grid-template-columns:
+            1fr;
+
+    }
+
+
+    .review-card:last-child {
+
+        grid-column:
+            auto;
+
+        max-width:
+            none;
+
+    }
+
+
+    .review-top {
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .review-stars {
+
+        margin-top:
+            5px;
+
+    }
+
+
+    .featured-review-box {
+
+        padding:
+            60px 25px;
+
+    }
+
+
+    .review-cta {
+
+        min-height:
+            500px;
+
+    }
+
+
+    .review-cta-content {
+
+        padding:
+            80px 0;
+
+    }
+
+
+}
+
+
+/* =========================================================
+   RESPONSIVE — SMALL PHONES
+========================================================= */
+
+@media (max-width: 480px) {
+
+
+    .rating-row {
+
+        grid-template-columns:
+            18px 18px 1fr 40px;
+
+        gap: 7px;
+
+    }
+
+
+    .review-card {
+
+        padding:
+            24px 20px;
+
+    }
+
+
+    .review-top {
+
+        flex-direction:
+            column;
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .featured-review-box blockquote {
+
+        font-size:
+            1.35rem;
+
+    }
+
+
+    .review-cta-buttons {
+
+        flex-direction:
+            column;
+
+    }
+
+
+    .review-cta-buttons .btn {
+
+        width: 100%;
+
+        text-align: center;
+
+    }
+
+}
+
+/* TEMPORARY REVIEWS FULL SCREEN TEST */
+
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.reviews-hero,
+.rating-overview,
+.customer-reviews,
+.featured-review,
+.review-cta {
+    width: 100%;
+}

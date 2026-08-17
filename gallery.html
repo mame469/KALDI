@@ -1,0 +1,1086 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================
+         META INFORMATION
+    ========================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore the KALDI Coffee House gallery. Discover our coffee, food, atmosphere, Ethiopian coffee culture and memorable moments.">
+
+    <meta name="keywords"
+          content="KALDI Coffee House gallery, coffee shop gallery, Ethiopian coffee, Addis Ababa coffee house">
+
+    <meta name="author"
+          content="KALDI Coffee House">
+
+
+    <!-- =========================
+         PAGE TITLE
+    ========================== -->
+
+    <title>
+        Gallery | KALDI Coffee House
+    </title>
+
+
+    <!-- =========================
+         GOOGLE FONTS
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- =========================
+         FONT AWESOME
+    ========================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- =========================
+         MAIN CSS
+    ========================== -->
+
+    <link rel="stylesheet"
+          href="style.css">
+ <link rel="stylesheet"
+          href="gallery.css">
+ <link rel="stylesheet"
+          href="responsive.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         LOADER
+    ====================================================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                KALDI
+            </div>
+
+            <div class="loader-line"></div>
+
+            <p>
+                Brewing your experience...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER / NAVBAR
+    ====================================================== -->
+
+    <header class="header" id="header">
+
+        <nav class="navbar">
+
+
+            <!-- LOGO -->
+
+            <a href="index.html"
+               class="logo">
+
+                <span class="logo-main">
+                    KALDI
+                </span>
+
+                <span class="logo-sub">
+                    COFFEE HOUSE
+                </span>
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <ul class="nav-links"
+                id="navLinks">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="menu.html">
+                        Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="gallery.html"
+                       class="active">
+                        Gallery
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reviews.html">
+                        Reviews
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- RESERVATION BUTTON -->
+
+            <a href="contact.html#reservation"
+               class="nav-reserve">
+
+                Reserve a Table
+
+            </a>
+
+
+            <!-- MOBILE MENU -->
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             GALLERY HERO
+        ================================================== -->
+
+        <section class="gallery-hero">
+
+            <div class="gallery-hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="gallery-hero-content">
+
+                    <span class="section-label">
+                        KALDI MOMENTS
+                    </span>
+
+                    <h1>
+                        See.
+                        <span>Experience.</span>
+                        Remember.
+                    </h1>
+
+                    <p>
+                        Take a glimpse into the coffee,
+                        people, flavors and atmosphere that
+                        make KALDI Coffee House special.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             GALLERY INTRO
+        ================================================== -->
+
+        <section class="gallery-intro section-padding">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span class="section-label">
+                        OUR WORLD
+                    </span>
+
+                    <h2>
+                        A Taste of KALDI
+                    </h2>
+
+                    <p>
+                        Every corner has a story.
+                        Every cup has a moment.
+                    </p>
+
+                </div>
+
+
+                <!-- =========================================
+                     GALLERY FILTERS
+                ========================================== -->
+
+                <div class="gallery-filters">
+
+                    <button class="gallery-filter active"
+                            data-filter="all">
+
+                        All
+
+                    </button>
+
+                    <button class="gallery-filter"
+                            data-filter="coffee">
+
+                        Coffee
+
+                    </button>
+
+                    <button class="gallery-filter"
+                            data-filter="food">
+
+                        Food
+
+                    </button>
+
+                    <button class="gallery-filter"
+                            data-filter="interior">
+
+                        Interior
+
+                    </button>
+
+                    <button class="gallery-filter"
+                            data-filter="culture">
+
+                        Culture
+
+                    </button>
+
+                    <button class="gallery-filter"
+                            data-filter="moments">
+
+                        Moments
+
+                    </button>
+
+                </div>
+
+
+                <!-- =========================================
+                     GALLERY GRID
+                ========================================== -->
+
+                <div class="gallery-grid"
+                     id="galleryGrid">
+
+
+                    <!-- GALLERY ITEM 01 -->
+
+                    <article class="gallery-item gallery-large"
+                             data-category="coffee">
+
+                        <img
+                            src="images/gallery/coffee-01.jpg"
+                            alt="Fresh Ethiopian coffee"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    COFFEE
+                                </span>
+
+                                <h3>
+                                    Ethiopian Coffee
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Ethiopian Coffee">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 02 -->
+
+                    <article class="gallery-item"
+                             data-category="interior">
+
+                        <img
+                            src="images/gallery/interior-01.jpg"
+                            alt="KALDI Coffee House interior"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    INTERIOR
+                                </span>
+
+                                <h3>
+                                    Our Space
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Our Space">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 03 -->
+
+                    <article class="gallery-item"
+                             data-category="food">
+
+                        <img
+                            src="images/gallery/food-01.jpg"
+                            alt="Fresh pastry and coffee"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    FOOD
+                                </span>
+
+                                <h3>
+                                    Freshly Baked
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Freshly Baked">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 04 -->
+
+                    <article class="gallery-item"
+                             data-category="culture">
+
+                        <img
+                            src="images/gallery/culture-01.jpg"
+                            alt="Traditional Ethiopian coffee ceremony"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    CULTURE
+                                </span>
+
+                                <h3>
+                                    Coffee Tradition
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Coffee Tradition">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 05 -->
+
+                    <article class="gallery-item gallery-tall"
+                             data-category="coffee">
+
+                        <img
+                            src="images/gallery/coffee-02.jpg"
+                            alt="Barista preparing coffee"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    COFFEE
+                                </span>
+
+                                <h3>
+                                    Crafted by Hand
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Crafted by Hand">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 06 -->
+
+                    <article class="gallery-item"
+                             data-category="moments">
+
+                        <img
+                            src="images/gallery/moment-01.jpg"
+                            alt="Friends enjoying coffee together"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    MOMENTS
+                                </span>
+
+                                <h3>
+                                    Together
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Together">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 07 -->
+
+                    <article class="gallery-item gallery-wide"
+                             data-category="interior">
+
+                        <img
+                            src="images/gallery/interior-02.jpg"
+                            alt="KALDI Coffee House seating area"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    INTERIOR
+                                </span>
+
+                                <h3>
+                                    Your Favorite Corner
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Your Favorite Corner">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 08 -->
+
+                    <article class="gallery-item"
+                             data-category="food">
+
+                        <img
+                            src="images/gallery/food-02.jpg"
+                            alt="Delicious cafe breakfast"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    FOOD
+                                </span>
+
+                                <h3>
+                                    Made Fresh
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Made Fresh">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 09 -->
+
+                    <article class="gallery-item"
+                             data-category="culture">
+
+                        <img
+                            src="images/gallery/culture-02.jpg"
+                            alt="Ethiopian coffee beans"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    CULTURE
+                                </span>
+
+                                <h3>
+                                    From Ethiopia
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View From Ethiopia">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- GALLERY ITEM 10 -->
+
+                    <article class="gallery-item"
+                             data-category="moments">
+
+                        <img
+                            src="images/gallery/moment-02.jpg"
+                            alt="Customer enjoying coffee"
+                            loading="lazy">
+
+                        <div class="gallery-overlay">
+
+                            <div class="gallery-overlay-content">
+
+                                <span>
+                                    MOMENTS
+                                </span>
+
+                                <h3>
+                                    Coffee & Conversation
+                                </h3>
+
+                                <button class="gallery-view"
+                                        aria-label="View Coffee and Conversation">
+
+                                    <i class="fa-solid fa-expand"></i>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+<!-- =================================================
+         FEATURED EXPERIENCE
+    ================================================== -->
+
+    <section class="gallery-feature section-padding">
+
+        <div class="container">
+
+            <div class="gallery-feature-grid">
+
+
+                <!-- IMAGE -->
+
+                <div class="gallery-feature-image">
+
+                    <img
+                        src="images/gallery/featured.jpg"
+                        alt="KALDI coffee experience"
+                        loading="lazy">
+
+                    <div class="gallery-feature-badge">
+
+                        <i class="fa-solid fa-mug-hot"></i>
+
+                        <span>
+                            KALDI EXPERIENCE
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTENT -->
+
+                <div class="gallery-feature-content">
+
+                    <span class="section-label">
+                        MORE THAN COFFEE
+                    </span>
+
+                    <h2>
+                        Moments Worth
+                        <span>Coming Back For.</span>
+                    </h2>
+
+                    <p>
+                        KALDI is more than a place to grab a cup
+                        of coffee. It is a space for conversations,
+                        creativity, celebrations and quiet moments.
+                    </p>
+
+                    <p>
+                        Come alone, bring a friend, meet your team
+                        or simply take a moment for yourself.
+                    </p>
+
+
+                    <a href="contact.html#reservation"
+                       class="btn btn-dark">
+
+                        Plan Your Visit
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =================================================
+         INSTAGRAM CTA
+    ================================================== -->
+
+    <section class="gallery-social">
+
+        <div class="gallery-social-overlay"></div>
+
+        <div class="container">
+
+            <div class="gallery-social-content">
+
+                <i class="fa-brands fa-instagram"></i>
+
+                <span class="section-label">
+                    FOLLOW THE JOURNEY
+                </span>
+
+                <h2>
+                    Life at
+                    <span>KALDI.</span>
+                </h2>
+
+                <p>
+                    Follow us for coffee, food,
+                    special moments and what's brewing next.
+                </p>
+
+                <a href="#"
+                   class="btn btn-gold">
+
+                    Follow Us on Instagram
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+</main>
+
+
+<!-- =====================================================
+     IMAGE LIGHTBOX
+====================================================== -->
+
+<div class="gallery-lightbox"
+     id="galleryLightbox"
+     aria-hidden="true">
+
+    <button class="lightbox-close"
+            id="lightboxClose"
+            aria-label="Close image">
+
+        <i class="fa-solid fa-xmark"></i>
+
+    </button>
+
+
+    <button class="lightbox-prev"
+            id="lightboxPrev"
+            aria-label="Previous image">
+
+        <i class="fa-solid fa-chevron-left"></i>
+
+    </button>
+
+
+    <div class="lightbox-content">
+
+        <img
+            src=""
+            alt=""
+            id="lightboxImage">
+
+        <div class="lightbox-caption"
+             id="lightboxCaption">
+
+        </div>
+
+    </div>
+
+
+    <button class="lightbox-next"
+            id="lightboxNext"
+            aria-label="Next image">
+
+        <i class="fa-solid fa-chevron-right"></i>
+
+    </button>
+
+</div>
+
+<!-- =====================================================
+     FOOTER
+====================================================== -->
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-grid">
+
+
+            <!-- BRAND -->
+
+            <div class="footer-brand">
+
+                <a href="index.html"
+                   class="logo">
+
+                    <span class="logo-main">
+                        KALDI
+                    </span>
+
+                    <span class="logo-sub">
+                        COFFEE HOUSE
+                    </span>
+
+                </a>
+
+                <p>
+                    Premium coffee. Authentic experience.
+                    A place where every cup tells a story.
+                </p>
+
+
+                <div class="footer-socials">
+
+                    <a href="#"
+                       aria-label="Instagram">
+
+                        <i class="fa-brands fa-instagram"></i>
+
+                    </a>
+
+                    <a href="#"
+                       aria-label="Facebook">
+
+                        <i class="fa-brands fa-facebook-f"></i>
+
+                    </a>
+
+                    <a href="#"
+                       aria-label="TikTok">
+
+                        <i class="fa-brands fa-tiktok"></i>
+
+                    </a>
+
+                    <a href="#"
+                       aria-label="WhatsApp">
+
+                        <i class="fa-brands fa-whatsapp"></i>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <ul>
+
+                    <li>
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="menu.html">
+                            Menu
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="about.html">
+                            About
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="gallery.html">
+                            Gallery
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="reviews.html">
+                            Reviews
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+
+            <!-- OPENING HOURS -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Opening Hours
+                </h3>
+
+                <p>
+                    Monday – Friday
+                </p>
+
+                <span>
+                    7:00 AM – 9:00 PM
+                </span>
+
+                <p>
+                    Saturday – Sunday
+                </p>
+
+                <span>
+                    8:00 AM – 10:00 PM
+                </span>
+
+            </div>
+
+
+            <!-- CONTACT -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Contact
+                </h3>
+
+                <p>
+                    Addis Ababa, Ethiopia
+                </p>
+
+                <p>
+                    +251 9XX XXX XXX
+                </p>
+
+                <p>
+                    hello@kaldicoffee.com
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <!-- FOOTER BOTTOM -->
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 KALDI Coffee House.
+                All Rights Reserved.
+            </p>
+
+            <p>
+                Crafted with ☕ & passion.
+            </p>
+
+        </div>
+
+    </div>
+
+</footer>
+
+
+<!-- =====================================================
+     WHATSAPP FLOAT
+====================================================== -->
+
+<a href="#"
+   class="whatsapp-float"
+   aria-label="Chat with KALDI on WhatsApp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+<!-- =====================================================
+     BACK TO TOP
+====================================================== -->
+
+<button class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top">
+
+    <i class="fa-solid fa-arrow-up"></i>
+
+</button>
+
+
+<!-- =====================================================
+     JAVASCRIPT
+====================================================== -->
+
+<script src="script.js"></script>
+      
+</body>
+</html>

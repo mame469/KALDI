@@ -1,0 +1,1556 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <!-- =========================
+         META INFORMATION
+    ========================== -->
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Explore the KALDI Coffee House menu — Ethiopian coffee, espresso, specialty drinks, tea, breakfast, pastries and desserts.">
+
+    <meta name="keywords"
+          content="KALDI Coffee House menu, Ethiopian coffee menu, coffee Addis Ababa, cafe menu">
+
+    <meta name="author"
+          content="KALDI Coffee House">
+
+
+    <!-- =========================
+         PAGE TITLE
+    ========================== -->
+
+    <title>
+        Menu | KALDI Coffee House
+    </title>
+
+
+    <!-- =========================
+         GOOGLE FONTS
+    ========================== -->
+
+    <link rel="preconnect"
+          href="https://fonts.googleapis.com">
+
+    <link rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+
+    <!-- =========================
+         FONT AWESOME
+    ========================== -->
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+
+    <!-- =========================
+         CSS
+    ========================== -->
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="menu.css">
+    <link rel="stylesheet" href="responsive.css">
+
+</head>
+
+
+<body>
+
+
+    <!-- =====================================================
+         LOADING SCREEN
+    ====================================================== -->
+
+    <div class="loader" id="loader">
+
+        <div class="loader-content">
+
+            <div class="loader-logo">
+                KALDI
+            </div>
+
+            <div class="loader-line"></div>
+
+            <p>
+                Brewing your experience...
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- =====================================================
+         HEADER / NAVBAR
+    ====================================================== -->
+
+    <header class="header" id="header">
+
+        <nav class="navbar">
+
+            <!-- LOGO -->
+
+            <a href="index.html" class="logo">
+
+                <span class="logo-main">
+                    KALDI
+                </span>
+
+                <span class="logo-sub">
+                    COFFEE HOUSE
+                </span>
+
+            </a>
+
+
+            <!-- NAVIGATION -->
+
+            <ul class="nav-links" id="navLinks">
+
+                <li>
+                    <a href="index.html">
+                        Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="menu.html" class="active">
+                        Menu
+                    </a>
+                </li>
+
+                <li>
+                    <a href="about.html">
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="gallery.html">
+                        Gallery
+                    </a>
+                </li>
+
+                <li>
+                    <a href="reviews.html">
+                        Reviews
+                    </a>
+                </li>
+
+                <li>
+                    <a href="contact.html">
+                        Contact
+                    </a>
+                </li>
+
+            </ul>
+
+
+            <!-- RESERVE BUTTON -->
+
+            <a href="contact.html#reservation"
+               class="nav-reserve">
+
+                Reserve a Table
+
+            </a>
+
+
+            <!-- MOBILE MENU -->
+
+            <button class="menu-toggle"
+                    id="menuToggle"
+                    aria-label="Open navigation menu">
+
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             MENU HERO
+        ================================================== -->
+
+        <section class="menu-hero">
+
+            <div class="menu-hero-overlay"></div>
+
+            <div class="container">
+
+                <div class="menu-hero-content">
+
+                    <span class="section-label">
+                        TASTE THE DIFFERENCE
+                    </span>
+
+                    <h1>
+                        Our
+                        <span>Menu</span>
+                    </h1>
+
+                    <p>
+                        From authentic Ethiopian Buna to carefully
+                        crafted specialty drinks, discover something
+                        made especially for your moment.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MENU INTRO
+        ================================================== -->
+
+        <section class="menu-intro section-padding">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <span class="section-label">
+                        FRESHLY PREPARED
+                    </span>
+
+                    <h2>
+                        Crafted With Passion
+                    </h2>
+
+                    <p>
+                        Every drink and dish at KALDI is prepared
+                        with carefully selected ingredients and
+                        attention to detail.
+                    </p>
+
+                </div>
+
+
+                <!-- MENU CATEGORY NAVIGATION -->
+
+                <div class="menu-categories">
+
+                    <a href="#coffee"
+                       class="menu-category active">
+
+                        <i class="fa-solid fa-mug-hot"></i>
+
+                        <span>
+                            Coffee
+                        </span>
+
+                    </a>
+
+
+                    <a href="#drinks"
+                       class="menu-category">
+
+                        <i class="fa-solid fa-glass-water"></i>
+
+                        <span>
+                            Drinks
+                        </span>
+
+                    </a>
+
+
+                    <a href="#tea"
+                       class="menu-category">
+
+                        <i class="fa-solid fa-leaf"></i>
+
+                        <span>
+                            Tea
+                        </span>
+
+                    </a>
+
+
+                    <a href="#breakfast"
+                       class="menu-category">
+
+                        <i class="fa-solid fa-bowl-food"></i>
+
+                        <span>
+                            Breakfast
+                        </span>
+
+                    </a>
+
+
+                    <a href="#desserts"
+                       class="menu-category">
+
+                        <i class="fa-solid fa-cake-candles"></i>
+
+                        <span>
+                            Desserts
+                        </span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             COFFEE SECTION
+        ================================================== -->
+
+        <section class="menu-section"
+                 id="coffee">
+
+            <div class="container">
+
+
+                <div class="menu-section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            OUR SIGNATURE
+                        </span>
+
+                        <h2>
+                            Coffee
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Discover the rich flavors of Ethiopian
+                        coffee alongside international favorites.
+                    </p>
+
+                </div>
+
+
+                <div class="menu-list">
+
+
+                    <!-- COFFEE ITEM 1 -->
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/coffee/ethiopian-buna.jpg"
+                                alt="Traditional Ethiopian Buna"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Ethiopian Buna
+                                </h3>
+
+                                <span>
+                                    180 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Traditional Ethiopian coffee prepared
+                                with authentic roasting and brewing
+                                methods.
+                            </p>
+
+                            <span class="menu-tag">
+                                KALDI SIGNATURE
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COFFEE ITEM 2 -->
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/coffee/espresso.jpg"
+                                alt="Espresso"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Espresso
+                                </h3>
+
+                                <span>
+                                    160 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                A concentrated shot of rich espresso
+                                with a smooth, intense finish.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COFFEE ITEM 3 -->
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/coffee/americano.jpg"
+                                alt="Americano"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Americano
+                                </h3>
+
+                                <span>
+                                    180 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Smooth espresso balanced with
+                                hot water for a clean finish.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COFFEE ITEM 4 -->
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/coffee/cappuccino.jpg"
+                                alt="Cappuccino"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Cappuccino
+                                </h3>
+
+                                <span>
+                                    200 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Rich espresso finished with
+                                creamy steamed milk and soft foam.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COFFEE ITEM 5 -->
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/coffee/latte.jpg"
+                                alt="KALDI Latte"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    KALDI Latte
+                                </h3>
+
+                                <span>
+                                    220 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Smooth espresso combined with
+                                silky steamed milk.
+                            </p>
+
+                            <span class="menu-tag">
+                                POPULAR
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- COFFEE ITEM 6 -->
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/coffee/mocha.jpg"
+                                alt="Chocolate Mocha"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Chocolate Mocha
+                                </h3>
+
+                                <span>
+                                    240 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Espresso, rich chocolate and
+                                creamy steamed milk.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             SPECIAL DRINKS
+        ================================================== -->
+
+        <section class="menu-section menu-section-alt"
+                 id="drinks">
+
+            <div class="container">
+
+
+                <div class="menu-section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            REFRESH & RECHARGE
+                        </span>
+
+                        <h2>
+                            Cold Drinks
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Refreshing drinks made for sunny afternoons
+                        and relaxed conversations.
+                    </p>
+
+                </div>
+
+
+                <div class="menu-list">
+
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/drinks/iced-latte.jpg"
+                                alt="Iced Latte"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Iced Latte
+                                </h3>
+
+                                <span>
+                                    230 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Chilled espresso with fresh milk
+                                served over ice.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/drinks/iced-mocha.jpg"
+                                alt="Iced Mocha"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Iced Mocha
+                                </h3>
+
+                                <span>
+                                    250 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Chocolate, espresso and chilled
+                                milk blended into a refreshing drink.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/drinks/fresh-juice.jpg"
+                                alt="Fresh Fruit Juice"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Fresh Fruit Juice
+                                </h3>
+
+                                <span>
+                                    180 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                Freshly squeezed seasonal fruit
+                                prepared to order.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="menu-item">
+
+                        <div class="menu-item-image">
+
+                            <img
+                                src="images/drinks/smoothie.jpg"
+                                alt="Fresh Smoothie"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="menu-item-content">
+
+                            <div class="menu-item-title">
+
+                                <h3>
+                                    Fresh Smoothie
+                                </h3>
+
+                                <span>
+                                    260 ETB
+                                </span>
+
+                            </div>
+
+                            <p>
+                                A creamy blend of fresh fruit
+                                and natural ingredients.
+                            </p>
+
+                            <span class="menu-tag">
+                                FAVORITE
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+<!-- =================================================
+             TEA SECTION
+        ================================================== -->
+
+        <section class="menu-section"
+                 id="tea">
+
+            <div class="container">
+
+
+                <div class="menu-section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            SLOW DOWN
+                        </span>
+
+                        <h2>
+                            Tea
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Relax with a carefully prepared cup
+                        of tea and enjoy the moment.
+                    </p>
+
+                </div>
+
+
+                <div class="simple-menu-grid">
+
+
+                    <article class="simple-menu-card">
+
+                        <div class="simple-menu-icon">
+
+                            <i class="fa-solid fa-leaf"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Ethiopian Tea
+                            </h3>
+
+                            <p>
+                                Traditional black tea
+                                with a smooth aroma.
+                            </p>
+
+                        </div>
+
+                        <span>
+                            120 ETB
+                        </span>
+
+                    </article>
+
+
+                    <article class="simple-menu-card">
+
+                        <div class="simple-menu-icon">
+
+                            <i class="fa-solid fa-seedling"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Green Tea
+                            </h3>
+
+                            <p>
+                                Light and refreshing
+                                premium green tea.
+                            </p>
+
+                        </div>
+
+                        <span>
+                            150 ETB
+                        </span>
+
+                    </article>
+
+
+                    <article class="simple-menu-card">
+
+                        <div class="simple-menu-icon">
+
+                            <i class="fa-solid fa-spa"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Herbal Tea
+                            </h3>
+
+                            <p>
+                                A calming blend of
+                                selected herbs.
+                            </p>
+
+                        </div>
+
+                        <span>
+                            160 ETB
+                        </span>
+
+                    </article>
+
+
+                    <article class="simple-menu-card">
+
+                        <div class="simple-menu-icon">
+
+                            <i class="fa-solid fa-lemon"></i>
+
+                        </div>
+
+                        <div>
+
+                            <h3>
+                                Lemon & Ginger Tea
+                            </h3>
+
+                            <p>
+                                Fresh lemon and ginger
+                                with hot tea.
+                            </p>
+
+                        </div>
+
+                        <span>
+                            170 ETB
+                        </span>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+      <!-- =================================================
+             BREAKFAST SECTION
+        ================================================== -->
+
+        <section class="menu-section menu-section-alt"
+                 id="breakfast">
+
+            <div class="container">
+
+
+                <div class="menu-section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            START YOUR DAY
+                        </span>
+
+                        <h2>
+                            Breakfast & Bites
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        Fresh breakfast choices and light bites
+                        to pair perfectly with your coffee.
+                    </p>
+
+                </div>
+
+
+                <div class="food-menu-grid">
+
+
+                    <article class="food-menu-card">
+
+                        <div class="food-menu-image">
+
+                            <img
+                                src="images/food/breakfast.jpg"
+                                alt="KALDI breakfast"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="food-menu-content">
+
+                            <div>
+
+                                <h3>
+                                    KALDI Breakfast
+                                </h3>
+
+                                <p>
+                                    Eggs, fresh bread, avocado,
+                                    vegetables and seasonal sides.
+                                </p>
+
+                            </div>
+
+                            <span>
+                                380 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="food-menu-card">
+
+                        <div class="food-menu-image">
+
+                            <img
+                                src="images/food/avocado-toast.jpg"
+                                alt="Avocado toast"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="food-menu-content">
+
+                            <div>
+
+                                <h3>
+                                    Avocado Toast
+                                </h3>
+
+                                <p>
+                                    Fresh avocado on toasted artisan
+                                    bread with herbs and seasoning.
+                                </p>
+
+                            </div>
+
+                            <span>
+                                320 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="food-menu-card">
+
+                        <div class="food-menu-image">
+
+                            <img
+                                src="images/food/egg-sandwich.jpg"
+                                alt="Egg sandwich"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="food-menu-content">
+
+                            <div>
+
+                                <h3>
+                                    Egg Sandwich
+                                </h3>
+
+                                <p>
+                                    Soft eggs, cheese and fresh
+                                    vegetables in toasted bread.
+                                </p>
+
+                            </div>
+
+                            <span>
+                                280 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="food-menu-card">
+
+                        <div class="food-menu-image">
+
+                            <img
+                                src="images/food/croissant.jpg"
+                                alt="Fresh croissant"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="food-menu-content">
+
+                            <div>
+
+                                <h3>
+                                    Butter Croissant
+                                </h3>
+
+                                <p>
+                                    Freshly baked, flaky and
+                                    delicately buttery.
+                                </p>
+
+                            </div>
+
+                            <span>
+                                160 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             DESSERTS
+        ================================================== -->
+
+        <section class="menu-section"
+                 id="desserts">
+
+            <div class="container">
+
+
+                <div class="menu-section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            SOMETHING SWEET
+                        </span>
+
+                        <h2>
+                            Desserts
+                        </h2>
+
+                    </div>
+
+                    <p>
+                        The perfect sweet ending to your
+                        KALDI coffee experience.
+                    </p>
+
+                </div>
+
+
+                <div class="dessert-grid">
+
+
+                    <article class="dessert-card">
+
+                        <div class="dessert-image">
+
+                            <img
+                                src="images/desserts/cheesecake.jpg"
+                                alt="Cheesecake"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="dessert-content">
+
+                            <h3>
+                                Classic Cheesecake
+                            </h3>
+
+                            <p>
+                                Creamy cheesecake with
+                                a delicate biscuit base.
+                            </p>
+
+                            <span>
+                                280 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="dessert-card">
+
+                        <div class="dessert-image">
+
+                            <img
+                                src="images/desserts/chocolate-cake.jpg"
+                                alt="Chocolate cake"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="dessert-content">
+
+                            <h3>
+                                Chocolate Cake
+                            </h3>
+
+                            <p>
+                                Rich chocolate cake with
+                                smooth chocolate cream.
+                            </p>
+
+                            <span>
+                                300 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="dessert-card">
+
+                        <div class="dessert-image">
+
+                            <img
+                                src="images/desserts/tiramisu.jpg"
+                                alt="Tiramisu"
+                                loading="lazy">
+
+                        </div>
+
+                        <div class="dessert-content">
+
+                            <h3>
+                                Classic Tiramisu
+                            </h3>
+
+                            <p>
+                                Espresso-soaked layers with
+                                creamy mascarpone.
+                            </p>
+
+                            <span>
+                                320 ETB
+                            </span>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MENU NOTE
+        ================================================== -->
+
+        <section class="menu-note section-padding">
+
+            <div class="container">
+
+                <div class="menu-note-box">
+
+                    <i class="fa-solid fa-circle-info"></i>
+
+                    <div>
+
+                        <h3>
+                            A Note From KALDI
+                        </h3>
+
+                        <p>
+                            Menu items, availability and prices may
+                            change depending on seasonal ingredients
+                            and daily specials.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             MENU CTA
+        ================================================== -->
+
+        <section class="menu-cta">
+
+            <div class="menu-cta-overlay"></div>
+
+            <div class="container">
+
+                <div class="menu-cta-content">
+
+                    <span class="section-label">
+                        YOUR TABLE IS WAITING
+                    </span>
+
+                    <h2>
+                        Good Coffee.
+                        <span>Good Moments.</span>
+                    </h2>
+
+                    <p>
+                        Come experience KALDI Coffee House
+                        and make your next coffee moment special.
+                    </p>
+
+
+                    <div class="hero-buttons">
+
+                        <a href="contact.html#reservation"
+                           class="btn btn-gold">
+
+                            Reserve a Table
+
+                            <i class="fa-solid fa-arrow-right"></i>
+
+                        </a>
+
+
+                        <a href="contact.html"
+                           class="btn btn-outline-light">
+
+                            Contact Us
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-grid">
+
+
+                <!-- BRAND -->
+
+                <div class="footer-brand">
+
+                    <a href="index.html"
+                       class="logo">
+
+                        <span class="logo-main">
+                            KALDI
+                        </span>
+
+                        <span class="logo-sub">
+                            COFFEE HOUSE
+                        </span>
+
+                    </a>
+
+                    <p>
+                        Premium coffee. Authentic experience.
+                        A place where every cup tells a story.
+                    </p>
+
+
+                    <div class="footer-socials">
+
+                        <a href="#"
+                           aria-label="Instagram">
+
+                            <i class="fa-brands fa-instagram"></i>
+
+                        </a>
+
+                        <a href="#"
+                           aria-label="Facebook">
+
+                            <i class="fa-brands fa-facebook-f"></i>
+
+                        </a>
+
+                        <a href="#"
+                           aria-label="TikTok">
+
+                            <i class="fa-brands fa-tiktok"></i>
+
+                        </a>
+
+                        <a href="#"
+                           aria-label="WhatsApp">
+
+                            <i class="fa-brands fa-whatsapp"></i>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUICK LINKS -->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Quick Links
+                    </h3>
+
+                    <ul>
+
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="menu.html">
+                                Menu
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="about.html">
+                                About
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="gallery.html">
+                                Gallery
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="contact.html">
+                                Contact
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </div>
+
+
+                <!-- HOURS -->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Opening Hours
+                    </h3>
+
+                    <p>
+                        Monday – Friday
+                    </p>
+
+                    <span>
+                        7:00 AM – 9:00 PM
+                    </span>
+
+                    <p>
+                        Saturday – Sunday
+                    </p>
+
+                    <span>
+                        8:00 AM – 10:00 PM
+                    </span>
+
+                </div>
+
+
+                <!-- CONTACT -->
+
+                <div class="footer-column">
+
+                    <h3>
+                        Contact
+                    </h3>
+
+                    <p>
+                        Addis Ababa, Ethiopia
+                    </p>
+
+                    <p>
+                        +251 9XX XXX XXX
+                    </p>
+
+                    <p>
+                        hello@kaldicoffee.com
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOTER BOTTOM -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    © 2026 KALDI Coffee House.
+                    All Rights Reserved.
+                </p>
+
+                <p>
+                    Crafted with ☕ & passion.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         WHATSAPP
+    ====================================================== -->
+
+    <a href="#"
+       class="whatsapp-float"
+       aria-label="Chat with KALDI on WhatsApp">
+
+        <i class="fa-brands fa-whatsapp"></i>
+
+    </a>
+
+
+    <!-- =====================================================
+         BACK TO TOP
+    ====================================================== -->
+
+    <button class="back-to-top"
+            id="backToTop"
+            aria-label="Back to top">
+
+        <i class="fa-solid fa-arrow-up"></i>
+
+    </button>
+
+
+    <!-- =====================================================
+         JAVASCRIPT
+    ====================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

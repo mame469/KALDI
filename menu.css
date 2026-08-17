@@ -1,0 +1,1346 @@
+/* =========================================================
+   KALDI COFFEE HOUSE
+   MENU PAGE CSS
+========================================================= */
+
+
+/* =========================================================
+   MENU HERO
+========================================================= */
+
+.menu-hero {
+
+    min-height: 65vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    position: relative;
+
+    background:
+        url("images/hero/menu-hero.jpg")
+        center / cover no-repeat;
+
+    overflow: hidden;
+
+}
+
+
+.menu-hero-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(25, 15, 10, 0.72),
+            rgba(25, 15, 10, 0.82)
+        );
+
+}
+
+
+.menu-hero .container {
+
+    position: relative;
+
+    z-index: 2;
+
+    width: 100%;
+
+}
+
+
+.menu-hero-content {
+
+    max-width: 850px;
+
+    margin: auto;
+
+    text-align: center;
+
+    color: #fff;
+
+    padding: 120px 20px 70px;
+
+}
+
+
+.menu-hero-content h1 {
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(3rem, 7vw, 6rem);
+
+    line-height: 1.05;
+
+    margin:
+        18px 0;
+
+}
+
+
+.menu-hero-content h1 span {
+
+    display: block;
+
+    color: #d6a354;
+
+    font-family:
+        "Dancing Script",
+        cursive;
+
+    font-weight: 600;
+
+}
+
+
+.menu-hero-content p {
+
+    max-width: 650px;
+
+    margin: 0 auto;
+
+    color: rgba(255,255,255,0.86);
+
+    font-size: 1rem;
+
+    line-height: 1.9;
+
+}
+
+
+/* =========================================================
+   MENU INTRO
+========================================================= */
+
+.menu-intro {
+
+    background: #fcf9f2;
+
+}
+
+
+.menu-intro .section-header {
+
+    max-width: 750px;
+
+    margin: 0 auto;
+
+}
+
+
+/* =========================================================
+   MENU CATEGORY NAVIGATION
+========================================================= */
+
+.menu-categories {
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin-top: 45px;
+
+}
+
+
+.menu-category {
+
+    min-width: 125px;
+
+    padding: 17px 22px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 10px;
+
+    text-decoration: none;
+
+    border: 1px solid #dfd4c5;
+
+    border-radius: 50px;
+
+    color: #4a2d20;
+
+    background: #fff;
+
+    font-family:
+        "Poppins",
+        sans-serif;
+
+    font-size: 0.88rem;
+
+    font-weight: 600;
+
+    transition:
+        all 0.3s ease;
+
+}
+
+
+.menu-category i {
+
+    font-size: 1rem;
+
+}
+
+
+.menu-category:hover,
+.menu-category.active {
+
+    background: #4a2d20;
+
+    border-color: #4a2d20;
+
+    color: #fff;
+
+    transform:
+        translateY(-3px);
+
+    box-shadow:
+        0 10px 25px rgba(74,45,32,0.15);
+
+}
+
+
+/* =========================================================
+   MENU SECTION
+========================================================= */
+
+.menu-section {
+
+    padding:
+        100px 0;
+
+    background: #fff;
+
+    scroll-margin-top: 100px;
+
+}
+
+
+.menu-section-alt {
+
+    background: #f6f1e8;
+
+}
+
+
+.menu-section-header {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: flex-end;
+
+    gap: 50px;
+
+    margin-bottom: 55px;
+
+}
+
+
+.menu-section-header > div {
+
+    flex: 1;
+
+}
+
+
+.menu-section-header > p {
+
+    max-width: 430px;
+
+    margin: 0;
+
+    color: #777;
+
+    line-height: 1.8;
+
+}
+
+
+.menu-section-header h2 {
+
+    margin-top: 10px;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(2.2rem, 5vw, 3.8rem);
+
+    color: #3b2419;
+
+}
+
+
+/* =========================================================
+   MENU LIST
+========================================================= */
+
+.menu-list {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 28px;
+
+}
+
+
+.menu-item {
+
+    display: flex;
+
+    align-items: stretch;
+
+    background: #fff;
+
+    border: 1px solid #eee5d9;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+
+}
+
+
+.menu-item:hover {
+
+    transform:
+        translateY(-6px);
+
+    box-shadow:
+        0 20px 45px rgba(59,36,25,0.12);
+
+}
+
+
+.menu-item-image {
+
+    width: 180px;
+
+    min-width: 180px;
+
+    overflow: hidden;
+
+}
+
+
+.menu-item-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    min-height: 190px;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition:
+        transform 0.6s ease;
+
+}
+
+
+.menu-item:hover
+.menu-item-image img {
+
+    transform:
+        scale(1.08);
+
+}
+
+
+.menu-item-content {
+
+    flex: 1;
+
+    padding: 25px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+}
+
+
+.menu-item-title {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 20px;
+
+    border-bottom:
+        1px dashed #d8c8b8;
+
+    padding-bottom: 12px;
+
+}
+
+
+.menu-item-title h3 {
+
+    margin: 0;
+
+    color: #3b2419;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size: 1.25rem;
+
+}
+
+
+.menu-item-title span {
+
+    color: #b67a32;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+
+    font-size: 0.95rem;
+
+}
+
+
+.menu-item-content > p {
+
+    margin:
+        13px 0 0;
+
+    color: #777;
+
+    line-height: 1.7;
+
+    font-size: 0.88rem;
+
+}
+
+
+.menu-tag {
+
+    display: inline-block;
+
+    width: fit-content;
+
+    margin-top: 15px;
+
+    padding:
+        5px 10px;
+
+    border-radius: 30px;
+
+    background: #f0dfc4;
+
+    color: #765027;
+
+    font-size: 0.65rem;
+
+    font-weight: 700;
+
+    letter-spacing: 1px;
+
+}
+
+
+/* =========================================================
+   SIMPLE MENU GRID
+========================================================= */
+
+.simple-menu-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 20px;
+
+}
+
+
+.simple-menu-card {
+
+    display: grid;
+
+    grid-template-columns:
+        auto 1fr auto;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 25px;
+
+    background: #fff;
+
+    border: 1px solid #eee5d9;
+
+    border-radius: 14px;
+
+    transition:
+        all 0.3s ease;
+
+}
+
+
+.simple-menu-card:hover {
+
+    transform:
+        translateY(-5px);
+
+    box-shadow:
+        0 15px 35px rgba(59,36,25,0.10);
+
+}
+
+
+.simple-menu-icon {
+
+    width: 55px;
+
+    height: 55px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #f0dfc4;
+
+    color: #765027;
+
+    font-size: 1.2rem;
+
+}
+
+
+.simple-menu-card h3 {
+
+    margin: 0 0 6px;
+
+    color: #3b2419;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+}
+
+
+.simple-menu-card p {
+
+    margin: 0;
+
+    color: #777;
+
+    font-size: 0.84rem;
+
+    line-height: 1.6;
+
+}
+
+
+.simple-menu-card > span {
+
+    color: #b67a32;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+
+}
+
+
+/* =========================================================
+   FOOD MENU GRID
+========================================================= */
+
+.food-menu-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, minmax(0, 1fr));
+
+    gap: 30px;
+
+}
+
+
+.food-menu-card {
+
+    overflow: hidden;
+
+    border-radius: 16px;
+
+    background: #fff;
+
+    border: 1px solid #eee5d9;
+
+    transition:
+        transform 0.35s ease,
+        box-shadow 0.35s ease;
+
+}
+
+
+.food-menu-card:hover {
+
+    transform:
+        translateY(-7px);
+
+    box-shadow:
+        0 20px 45px rgba(59,36,25,0.12);
+
+}
+
+
+.food-menu-image {
+
+    height: 260px;
+
+    overflow: hidden;
+
+}
+
+
+.food-menu-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    object-fit: cover;
+
+    display: block;
+
+    transition:
+        transform 0.6s ease;
+
+}
+
+
+.food-menu-card:hover
+.food-menu-image img {
+
+    transform:
+        scale(1.07);
+
+}
+
+
+.food-menu-content {
+
+    padding: 25px;
+
+    display: flex;
+
+    align-items: flex-end;
+
+    justify-content: space-between;
+
+    gap: 25px;
+
+}
+
+
+.food-menu-content h3 {
+
+    margin: 0 0 8px;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    color: #3b2419;
+
+    font-size: 1.35rem;
+
+}
+
+
+.food-menu-content p {
+
+    margin: 0;
+
+    color: #777;
+
+    font-size: 0.87rem;
+
+    line-height: 1.7;
+
+}
+
+
+.food-menu-content > span {
+
+    color: #b67a32;
+
+    font-weight: 700;
+
+    white-space: nowrap;
+
+}
+
+
+/* =========================================================
+   DESSERT GRID
+========================================================= */
+
+.dessert-grid {
+
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, minmax(0, 1fr));
+
+    gap: 28px;
+
+}
+
+
+.dessert-card {
+
+    background: #fff;
+
+    border: 1px solid #eee5d9;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    transition:
+        all 0.35s ease;
+
+}
+
+
+.dessert-card:hover {
+
+    transform:
+        translateY(-7px);
+
+    box-shadow:
+        0 20px 45px rgba(59,36,25,0.12);
+
+}
+
+
+.dessert-image {
+
+    height: 260px;
+
+    overflow: hidden;
+
+}
+
+
+.dessert-image img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.6s ease;
+
+}
+
+
+.dessert-card:hover
+.dessert-image img {
+
+    transform:
+        scale(1.08);
+
+}
+
+
+.dessert-content {
+
+    padding: 23px;
+
+}
+
+
+.dessert-content h3 {
+
+    margin:
+        0 0 8px;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    color: #3b2419;
+
+    font-size: 1.3rem;
+
+}
+
+
+.dessert-content p {
+
+    margin: 0 0 16px;
+
+    color: #777;
+
+    line-height: 1.7;
+
+    font-size: 0.87rem;
+
+}
+
+
+.dessert-content span {
+
+    color: #b67a32;
+
+    font-weight: 700;
+
+}
+
+
+/* =========================================================
+   MENU NOTE
+========================================================= */
+
+.menu-note {
+
+    background: #fcf9f2;
+
+}
+
+
+.menu-note-box {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    padding: 25px 30px;
+
+    border:
+        1px solid #e4d7c7;
+
+    border-left:
+        4px solid #b67a32;
+
+    background: #fff;
+
+    border-radius: 10px;
+
+}
+
+
+.menu-note-box > i {
+
+    color: #b67a32;
+
+    font-size: 1.4rem;
+
+}
+
+
+.menu-note-box h3 {
+
+    margin:
+        0 0 5px;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    color: #3b2419;
+
+}
+
+
+.menu-note-box p {
+
+    margin: 0;
+
+    color: #777;
+
+    font-size: 0.85rem;
+
+    line-height: 1.7;
+
+}
+
+
+/* =========================================================
+   MENU CTA
+========================================================= */
+
+.menu-cta {
+
+    min-height: 550px;
+
+    display: flex;
+
+    align-items: center;
+
+    position: relative;
+
+    background:
+        url("images/hero/hero-2.jpg")
+        center / cover no-repeat;
+
+}
+
+
+.menu-cta-overlay {
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(31,19,13,0.90),
+            rgba(31,19,13,0.55),
+            rgba(31,19,13,0.75)
+        );
+
+}
+
+
+.menu-cta .container {
+
+    position: relative;
+
+    z-index: 2;
+
+}
+
+
+.menu-cta-content {
+
+    max-width: 700px;
+
+    padding: 100px 0;
+
+    color: #fff;
+
+}
+
+
+.menu-cta-content h2 {
+
+    margin:
+        18px 0;
+
+    font-family:
+        "Playfair Display",
+        serif;
+
+    font-size:
+        clamp(2.5rem, 5vw, 4.5rem);
+
+    line-height: 1.1;
+
+}
+
+
+.menu-cta-content h2 span {
+
+    display: block;
+
+    color: #d6a354;
+
+    font-family:
+        "Dancing Script",
+        cursive;
+
+}
+
+
+.menu-cta-content p {
+
+    max-width: 600px;
+
+    color:
+        rgba(255,255,255,0.84);
+
+    line-height: 1.8;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* =========================================================
+   MENU RESPONSIVE — TABLET
+========================================================= */
+
+@media (max-width: 992px) {
+
+
+    .menu-list {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .simple-menu-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .food-menu-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .dessert-grid {
+
+        grid-template-columns:
+            repeat(2, minmax(0, 1fr));
+
+    }
+
+
+    .menu-section-header {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+}
+
+
+/* =========================================================
+   MENU RESPONSIVE — MOBILE
+========================================================= */
+
+@media (max-width: 768px) {
+
+
+    .menu-hero {
+
+        min-height: 55vh;
+
+    }
+
+
+    .menu-hero-content {
+
+        padding:
+            110px 20px 60px;
+
+    }
+
+
+    .menu-hero-content p {
+
+        font-size: 0.9rem;
+
+        line-height: 1.7;
+
+    }
+
+
+    .menu-categories {
+
+        gap: 10px;
+
+    }
+
+
+    .menu-category {
+
+        min-width:
+            calc(50% - 10px);
+
+        padding:
+            14px 12px;
+
+        font-size: 0.78rem;
+
+    }
+
+
+    .menu-section {
+
+        padding:
+            75px 0;
+
+    }
+
+
+    .menu-section-header {
+
+        margin-bottom: 35px;
+
+    }
+
+
+    .menu-item {
+
+        flex-direction: column;
+
+    }
+
+
+    .menu-item-image {
+
+        width: 100%;
+
+        min-width: 100%;
+
+        height: 230px;
+
+    }
+
+
+    .menu-item-image img {
+
+        min-height: 230px;
+
+    }
+
+
+    .menu-item-content {
+
+        padding: 22px;
+
+    }
+
+
+    .simple-menu-card {
+
+        grid-template-columns:
+            auto 1fr;
+
+    }
+
+
+    .simple-menu-card > span {
+
+        grid-column: 2;
+
+    }
+
+
+    .food-menu-content {
+
+        align-items: flex-start;
+
+        flex-direction: column;
+
+        gap: 15px;
+
+    }
+
+
+    .dessert-grid {
+
+        grid-template-columns: 1fr;
+
+    }
+
+
+    .dessert-image {
+
+        height: 240px;
+
+    }
+
+
+    .menu-note-box {
+
+        align-items: flex-start;
+
+        padding:
+            22px;
+
+    }
+
+
+    .menu-cta {
+
+        min-height:
+            500px;
+
+    }
+
+
+    .menu-cta-content {
+
+        padding:
+            80px 0;
+
+    }
+
+
+}
+
+
+/* =========================================================
+   MENU RESPONSIVE — SMALL PHONES
+========================================================= */
+
+@media (max-width: 480px) {
+
+
+    .menu-category {
+
+        min-width:
+            calc(50% - 5px);
+
+        padding:
+            13px 8px;
+
+    }
+
+
+    .menu-category i {
+
+        font-size:
+            0.85rem;
+
+    }
+
+
+    .menu-item-title {
+
+        align-items:
+            flex-start;
+
+    }
+
+
+    .menu-item-title h3 {
+
+        font-size:
+            1.1rem;
+
+    }
+
+
+    .menu-item-title span {
+
+        font-size:
+            0.82rem;
+
+    }
+
+
+    .simple-menu-card {
+
+        gap:
+            14px;
+
+        padding:
+            20px;
+
+    }
+
+
+    .simple-menu-icon {
+
+        width:
+            45px;
+
+        height:
+            45px;
+
+        font-size:
+            1rem;
+
+    }
+
+
+    .food-menu-image {
+
+        height:
+            220px;
+
+    }
+
+
+    .dessert-image {
+
+        height:
+            220px;
+
+    }
+
+
+    .menu-note-box {
+
+        flex-direction:
+            column;
+
+        gap:
+            12px;
+
+    }
+
+}
+
